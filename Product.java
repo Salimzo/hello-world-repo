@@ -17,6 +17,7 @@ public Product(String d, String c, int n, int u, int s) {
     stockReorderThreshold = s;
 }
 
+    // ANDY - don't have so many getters/seters
     public String getDescription() {
         return description;
     }
